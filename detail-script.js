@@ -119,7 +119,7 @@ document.getElementById("submitBooking").addEventListener("click", async () => {
 
   try {
     const response = await fetch(
-      "https://ticketstie-backend.onrender.com/movie/get-movies",
+      "https://ticketstie-backend.onrender.com/movie/book-movie",
       {
         method: "POST",
         headers: {
